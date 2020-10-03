@@ -1,0 +1,118 @@
+* {
+    margin: 0px; 
+    padding: 0px; 
+}
+
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+/* navigation menu */
+
+nav {
+    height: 83px; 
+    width: 1349px; 
+}
+
+.logo {
+    float: left; 
+    margin-top: 15px; 
+    margin-left: 35px; 
+}
+
+nav ul  {
+    position: absolute; 
+    margin-left: 280px; 
+    margin-top: 34px;   
+}
+
+ nav ul li {
+    display: inline-block; 
+    padding-left: 50px;
+}
+
+ul li a {
+    text-decoration: none; 
+    font-size: 16px;
+    font-weight: 600;
+    color: #0d2d3e;
+}
+
+nav ul li a:hover {
+    color: #6785FF
+}
+
+ .phone-icon {
+    margin-left: 750px; 
+    margin-top: 23px; 
+}
+
+
+
+nav address {
+    margin-left: 1000px;
+    margin-top: -28px; 
+    font-size: 16px;
+    font-weight: 600;
+    color: #6785FF;
+}
+
+nav .header-btn {
+    position: absolute; 
+    margin-left: 955px; 
+    margin-top: -50px; 
+    padding: 37px 26px 34px 26px;
+    line-height: 1;
+    background: #6785FF;
+    color: white; 
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+}
+
+/* navigation menu */
+
+/* main content */
+
+.section-user section img {
+    width: 1349px;
+    height: 765; 
+}
+
+.hero-image {
+    opacity: 10;
+}
+
+
+.section-user h1 {
+    position: absolute; 
+    margin-top: -450px; 
+    margin-left: 100px; 
+    font-size: 70px; 
+    color: white; 
+    line-height: 1.2; 
+}
+
+.section-user section h4 {
+    font-size: 27px; 
+    color: white; 
+    position: absolute; 
+    margin-top: -250px; 
+    margin-left: 100px;
+}
+
+.section-user .hero-btn2 {
+    color: white; 
+    font-size: 18px; 
+    line-height: 1.5; 
+    decoration: none;
+    position: absolute; 
+    margin-top: -200px;
+    margin-left: 120px; 
+    border: none; 
+    background-image: linear-gradient(to left, #6785FF, #5172f5, #6785FF);
+    border-radius: 30px; 
+    padding: 16px 40px;
+    white-space: nowrap;
+}
+
